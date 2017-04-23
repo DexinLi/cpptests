@@ -1,3 +1,5 @@
+
+namespace Blah{
 class A {
   B b,b2;
 
@@ -5,3 +7,4 @@ class A {
   	b=b2;
   }
 };
+}
