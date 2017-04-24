@@ -6,6 +6,12 @@ class A {
 
 
 
+  B bar(B x){
+    b = b2;
+    return x;
+  }
+  
+  
   void foo() {
 
   	b=b2;
