@@ -1,2 +1,5 @@
+
+namespace Blah{
 class B{
 };
+}
