@@ -1,3 +1,6 @@
+struct C{
+  int c;
+};
 struct B{
-  int a;
+  C a;
 };
