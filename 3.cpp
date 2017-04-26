@@ -1,3 +1,3 @@
-namespace Hello{
-class B{};
-}
+struct B{
+  int a;
+};
