@@ -4,7 +4,7 @@ struct D{
 struct X{
   D c;
 };
-using C = X;
+typedef X C;
 struct B{
   C a;
 };
