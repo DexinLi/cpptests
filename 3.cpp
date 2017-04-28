@@ -6,5 +6,5 @@ struct X{
 };
 typedef X C;
 struct B{
-  C a;
+  X a;
 };
