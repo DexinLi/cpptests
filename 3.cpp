@@ -6,8 +6,9 @@ struct X{
 };
 typedef X C;
 struct B{
-  C a,b;
+  C a1,b1;
+  X a,b;
   void foo(){
-    a.c.d = b.c.d;
+    a1.c.d = b1.c.d;
   }
 };
