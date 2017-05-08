@@ -1,9 +1,9 @@
 struct D{
   int d;
 };
-struct X{
+struct C{
   D c;
 };
 struct B{
-  X a,b;
+  C a,b;
 };
