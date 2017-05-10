@@ -10,6 +10,6 @@ class A {
     foo(b4,c1);
     b.a.x();
     bar(b).c.d;
-    return C();
+    return B().c;
   }
 };
