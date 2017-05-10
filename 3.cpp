@@ -7,3 +7,6 @@ struct C{
 struct B{
   C a,b;
 };
+B foo() {
+  return B();
+}
