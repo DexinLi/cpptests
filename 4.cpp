@@ -1,4 +1,5 @@
 C bar(B);
+C (*shit)(B);
 class A {
 
   const B b;
@@ -8,8 +9,8 @@ class A {
   	b.a.c.d = 1;
     b3->a.c.d=b4.a.c.d;
     foo(b4,c1);
-    b.a.x();
-    bar(b).c.d;
+    c1.c.d;
+    shit(b).c.d;
     return B().c;
   }
 };
