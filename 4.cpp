@@ -11,6 +11,7 @@ class A {
     foo(b4,c1).c.d;
     c1.c.d;
     shit(b).c.d;
+    bar(b4).c.d;
     return B().c;
   }
 };
