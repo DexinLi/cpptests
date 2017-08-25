@@ -16,7 +16,7 @@ struct B:A<T2>
 
 int main()
 {
-    auto g = [](auto a){return a;};
+    auto g = [](int a){return a;};
     int arr[sizeof(int)];
     A<int> a;
     a.foo(a);
