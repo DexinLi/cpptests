@@ -3,7 +3,8 @@ void foo() {
   LIKELY(2 == 3);
 }
 
-#define LIKE(xxx)   (x\
+#define LI\
+KE(xxx)   (x\
 xx)
 
 void bar() {
