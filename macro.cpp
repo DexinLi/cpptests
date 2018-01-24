@@ -3,8 +3,8 @@ void foo() {
   LIKELY(2 == 3);
 }
 
-#define LIKE(xx)   (x\
-x)
+#define LIKE(xxx)   (x\
+xx)
 
 void bar() {
     LIKE(3==4);
