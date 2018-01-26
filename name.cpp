@@ -14,7 +14,7 @@ struct B:A<T2>
 };
 
 struct C {
-  inline bool operator==(const C& a) const { return false; }
+  inline bool operator == (const C& a) const { return false; }
 };
 int bar() {
  C a, b;
