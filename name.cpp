@@ -51,6 +51,8 @@ int main()
 {
     tFunc(1,2,3);
     auto g = [](int a){return a;};
+    int x=1;
+    int y = g(1);
     int arr[sizeof(int)];
     A<int> a;
     a.foo(a);
