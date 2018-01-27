@@ -37,10 +37,12 @@ T3 tFunc(T1 x,T2 y,T3 z) {
 struct C {
   inline bool operator == (const C& a) const { return false; }
   int operator[](int i){return 1;}
+  int operator()(int i){return 1;}
 };
 int bar() {
  C a, b;
  bool x = a == b;
+ int c = a(1);
  return a[1];
 };
 
