@@ -41,9 +41,10 @@ struct C {
 };
 int bar() {
  C a, b;
+ int i=0;
  bool x = a == b;
- int c = a(1);
- return a[1];
+ int c = a(i);
+ return a[i];
 };
 
 int main()
