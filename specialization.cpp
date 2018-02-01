@@ -6,12 +6,3 @@ class A{};
 
 template<class T,class... Args>
 class A<T(Args...)>{};
-
-template<class T1,class T2>
-T1 foo(T2 x);
-
-template<class T>
-T foo<T, int>(T x)
-{
-    return x;
-}
