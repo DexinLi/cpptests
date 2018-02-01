@@ -11,7 +11,7 @@ template<class T1,class T2>
 T1 foo(T2 x);
 
 template<class T>
-T foo(T x)
+T foo<T, int>(T x)
 {
     return x;
 }
