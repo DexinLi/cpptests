@@ -7,7 +7,7 @@ class A {
     b3->a.c.d=b4.a.c.d;
     foo(b4,c1).c.d;
     c1.c.d;
-    return B().c;
+    return B().b;
   }
   private:
   const B b;
